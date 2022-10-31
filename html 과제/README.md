@@ -11,7 +11,7 @@
 </div>
 ```
 > [Bulma의 Hero](https://bulma.io/documentation/layout/hero/)
-₩₩₩
+```html
 <section class="hero is-warning">
   <div class="hero-body">
     <p class="title">
@@ -22,12 +22,12 @@
     </p>
   </div>
 </section>
-₩₩₩
+```
 > [UIkit의 Table](https://getuikit.com/docs/table)
-₩₩₩
+```html
 <table class="uk-table uk-table-striped">…</table>
-₩₩₩
+```
 
-[github.io 주소](https://hyeon317.github.io)
+**주소**
 [github.io 주소](https://hyeon317.github.io)
 [Netlify 주소](https://snazzy-bubblegum-21d376.netlify.app)
