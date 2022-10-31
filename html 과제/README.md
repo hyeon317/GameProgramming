@@ -3,15 +3,13 @@
 **사용한 framework**
 
 > [Bootstrap의 Cards](https://getbootstrap.com/docs/5.2/components/card/)
-<pre>
-<code>
+```html
 <div class="card">
   <div class="card-body">
     This is some text within a card body.
   </div>
 </div>
-</code>
-</pre>
+```
 > [Bulma의 Hero](https://bulma.io/documentation/layout/hero/)
 ₩₩₩
 <section class="hero is-warning">
