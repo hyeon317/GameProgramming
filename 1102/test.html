@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // prompt로 단을 입력받아 그 단을 출력하는 프로그램
+
+        let num = prompt("출력할 구구단 숫자 입력", "1");
+        let i = 1;
+
+        // for 문
+        document.write("for 을 이용한 출력", "<br>");
+        for (i = 1; i < 10; i++) {
+            document.write(num + " * " + i + " = " + (num * i) + "<br>");
+        }
+
+        i = 1;
+        // while문
+        document.write("while을 이용한 출력", "<br>");
+        while (i < 10) {
+            document.write(num + " * " + i + " = " + (num * i) + "<br>");
+            i++;
+        }
+        
+        i = 1;
+        // do-while 문
+        document.write("do-while을 이용한 출력", "<br>");
+        do {
+            document.write(num + " * " + i + " = " + (num * i) + "<br>");
+            i++;
+        } while (i < 10)
+    </script>
+</body>
+</html>
