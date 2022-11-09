@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script src="echarts.min.js"></script>
+<head>
+    <meta charset = "UTF-8">
+    <title>Misson_1109</title>
+</head>
+<body>
+    <h2>Chart 1 : Most Popular JavaScript Libraries</h2>
+    <canvas id="js_lib" style="width:100%;max-width:400px"></canvas>
+
+    <script>
+        let xValues = ["jQuery", "Bootstrap", "Modernizr", "Underscore", "Popper"];
+        let yValues = [77.5, 21.7, 9.1, 9.0, 4.6];
+        let barColors = ["red", "green","blue","orange","brown"];
+
+        new Chart("js_lib", {
+        type: "bar",
+        data: {
+            labels: xValues,
+            datasets: [{
+            backgroundColor: barColors,
+            data: yValues
+            }]
+        },
+        options: {
+            legend: {display: false},
+            title: {
+            display: true,
+            text: "Most Popular JavaScript Libraries"
+            }
+        }
+        });
+    </script>
+    <hr>
+    <h2>Chart 2 : Most Popular Web Servers</h2>
+    <div id="container" style="height: 180%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.0/dist/echarts.min.js"></script>
+
+  <script type="text/javascript">
+    let dom = document.getElementById('container');
+    let myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    let app = {};
+    
+    let option;
+
+    option = {
+  title: {
+    text: 'Most Popular Web Servers',
+    left: 'center'
+  },
+  tooltip: {
+    trigger: 'item'
+  },
+  legend: {
+    orient: 'vertical',
+    left: 'left'
+  },
+  series: [
+    {
+      type: 'pie',
+      radius: '50%',
+      data: [
+        { value: 34.2, name: 'Nginx' },
+        { value: 31.4, name: 'Apache' },
+        { value: 21.6, name: 'Cloudflare Server' },
+        { value: 12.3, name: 'LiteSpeed' },
+        { value: 5.9, name: 'Microsoft_IIS' }
+      ],
+      emphasis: {
+        itemStyle: {
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowColor: 'rgba(0, 0, 0, 0.5)'
+        }
+      }
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+
+  <hr>
+  <h2>Chart 3 : Most Popular Web Hosting Providers</h2>
+  <canvas id="Chart" style="width:100%;max-width:300px"></canvas>
+
+<script>
+var aValue = ["Amazon", "Newfold Digital Group", "Shopify", "GoDaddy Group", "OVH"];
+var bValue = [6.2, 4.5, 4.1, 3.9, 3.0];
+var barColor = [
+  "#b91d47",
+  "#00aba9",
+  "#2b5797",
+  "#e8c3b9",
+  "#1e7145"
+];
+
+new Chart("Chart", {
+  type: "doughnut",
+  data: {
+    labels: aValue,
+    datasets: [{
+      backgroundColor: barColors,
+      data: bValue
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "Most Popular Web Hosting Providers"
+    }
+  }
+});
+</script>
+</body>
