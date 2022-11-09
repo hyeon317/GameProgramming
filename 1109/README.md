@@ -35,6 +35,7 @@ new Chart("myChart", {
 ```
 > [echarts의 Referer of a Website]([https://bulma.io/documentation/layout/hero/](https://echarts.apache.org/examples/en/editor.html?c=pie-simple))
 ```html
+<script>
 option = {
   title: {
     text: 'Referer of a Website',
@@ -70,6 +71,7 @@ option = {
     }
   ]
 };
+</script>
 ```
 > [Google Charts의 Donut Charts]([https://getuikit.com/docs/table](https://developers.google.com/chart/interactive/docs/gallery/piechart#donut))
 ```html
