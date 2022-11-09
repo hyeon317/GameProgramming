@@ -107,4 +107,4 @@ option = {
 
 **주소**
 
-[github.io 주소]([https://1109_hyeon317.github.io](https://hyeon317.github.io/1109_hyeon317.github.io/))
+[github.io 주소](https://hyeon317.github.io/1109_hyeon317.github.io/)
