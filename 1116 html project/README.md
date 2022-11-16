@@ -39,10 +39,12 @@
 >>    </div>
 >>```
 >> 게임의 제목과 부제목을 표시할 수 있도록 만들었다. <br>아무런 설정 없이 기본으로 두는 것은 별로인 것 같아, <br>Bootstrap을 사용하여 스타일을 지정해주었다.
-> 3. 설명 추가
+> 3. 게임 설명 추가
 >> 
 
 
+> **PPT보러가기**<br>
+> [PPT로 ]
 
 > **게임하러가기**<br>
 > [ORIGINAL GAME으로 이동](https://hyeon317.github.io/original_html.github.io/)<br>
