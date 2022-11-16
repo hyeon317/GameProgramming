@@ -25,11 +25,22 @@
 
 
 > **세부내용**<br>
-> *UPGRADE 설명 포함*<br>
+> *UPGRADE 코드 포함, 개선하고자 한 점의 순서와는 무관*<br>
 > 1. 타이틀 변경
 >>```html
->><title>게임 소개</title>
+>><title>BLOCK GAME</title>
 >>```
+>>> 타이틀에서부터 어떤 게임인지 알 수 있는 것이 좋을 것 같아, 이름을 적게 되었다.
+> 2. 게임 제목 추가
+>>```html
+>><div class = "container-fluic p-5 bg-warning text-white text-center">
+        <h1>BLOCK GAME</h1>
+        <p>소프트웨어학과 2020875042 이수현</p>
+    </div>
+>>```
+>>> 게임의 제목과 부제목을 표시할 수 있도록 만들었다. 아무런 설정 없이 기본으로 두는 것은 별로인 것 같아, Bootstrap을 사용하여 스타일을 지정해주었다.
+> 3. 설명 추가
+>> 
 
 
 
