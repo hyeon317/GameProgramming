@@ -28,8 +28,8 @@
 > *UPGRADE 설명 포함*<br>
 > 1. 타이틀 변경
 >>```html
-<title>게임 소개</title>
-```
+>><title>게임 소개</title>
+>>```
 
 
 
