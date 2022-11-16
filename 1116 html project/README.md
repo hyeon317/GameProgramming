@@ -58,7 +58,7 @@
 >> [level.html 파일로 이동](https://github.com/hyeon317/GameProgramming/blob/main/1116%20html%20project/level.html)
 >> 게임 소개와 마찬가지로 Bulma를 사용하였다.
 > 7. 색상 변경
->> ```html
+>> ```js
 >> ctx.fillStyle = "#f0ad4e";
 >> ```
 >> drawBall(), drawPaddle(), drawBricks(), leftBricks(), drawLives() 함수에 해당 코드가 포함되어있다.<br>색상 코드는 게임 제목으로 사용했던 Bootstarp에서 warning테마의 색상 코드를 사용했다.
@@ -68,6 +68,6 @@
 
 > **게임하러가기**<br>
 > [ORIGINAL GAME으로 이동](https://hyeon317.github.io/original_html.github.io/)<br>
-> [UPGRADE GAME으로 이동](https://hyeon317.github.io/html_project.github.io/)
-<br>
+> [UPGRADE GAME으로 이동](https://hyeon317.github.io/html_project.github.io/)<br><br>
+
 > **[PPT보러가기](https://github.com/hyeon317/GameProgramming/blob/main/1116%20html%20project/%EA%B2%8C%EC%9E%84%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20-%20HTML.pdf)**
