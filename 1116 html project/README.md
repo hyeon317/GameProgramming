@@ -116,6 +116,7 @@
 >> //     paddleX = relativeX - paddleWidth/2;
 >> //   }
 >> // }
+>> ```
 >> 키보드와 마우스로 모두 게임을 실행해보니 함께 작용하는 것이 불편하다고 생각되었다. <br>따라서 마우스로 게임을 제어하던 부분을 주석처리하여, 게임은 키보드로만 진행될 수 있게 하였다.
 > 13. 게임 마무리 시 안내문 출력
 >> ```js
@@ -141,6 +142,7 @@
 >>      <span>Copyright 2022. cocoder. All Rights Reserved.</span>
 >>    </p>
 >> </footer>
+>> ```
 >> 게임 제작자의 정보를 담기 위해 footer태그를 이용했다.<br>blog는 주소가 따로 없어 naver를 넣었고, github는 해당 파일의 git주소를 넣었다.<br>추가로 제작자의 이름과 학번, 이메일을 넣었다.
 > 15. framework 사용
 >> (1) Bootstrap
