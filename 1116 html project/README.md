@@ -29,6 +29,6 @@
 
 
 
-> **게임하러가기**<br><br>
+> **게임하러가기**<br>
 > [ORIGINAL GAME으로 이동](https://hyeon317.github.io/original_html.github.io/)<br>
 > [UPGRADE GAME으로 이동](https://hyeon317.github.io/html_project.github.io/)
