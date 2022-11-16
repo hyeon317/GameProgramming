@@ -33,7 +33,7 @@
 <table class="uk-table uk-table-striped">…</table>
 ```
 
-**주소**
+**게임하러가기**
 
-[github.io 주소](https://hyeon317.github.io)
-[Netlify 주소](https://snazzy-bubblegum-21d376.netlify.app)
+[ORIGINAL 주소](https://hyeon317.github.io/original_html.github.io/)
+[UPGRADE 주소](https://hyeon317.github.io/html_project.github.io/)
