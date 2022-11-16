@@ -23,9 +23,9 @@
 > 등
 
 
-> **세부내용**
-> *UPGRADE 설명 포함*
-> [설명 보러가기](https://github.com/hyeon317/GameProgramming/files/10018305/-.HTML.pdf)
+> **세부내용**<br>
+> *UPGRADE 설명 포함*<br>
+> 내용 추가 될 예정
 
 
 
