@@ -2,8 +2,8 @@
 
 > **선택한 게임**
 > -----------
-> BLOCK GAME<br>
-> => ![ORIGINAL GAME](https://user-images.githubusercontent.com/101097019/202085982-7365a0c5-baf9-4e43-af81-bbe0ebf14b60.png)
+> BLOCK GAME<br><br>
+> ![ORIGINAL GAME](https://user-images.githubusercontent.com/101097019/202085982-7365a0c5-baf9-4e43-af81-bbe0ebf14b60.png)
 
 
 
