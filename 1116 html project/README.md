@@ -33,7 +33,7 @@
 <table class="uk-table uk-table-striped">…</table>
 ```
 
-**게임하러가기**
-
-[ORIGINAL 주소](https://hyeon317.github.io/original_html.github.io/)
-[UPGRADE 주소](https://hyeon317.github.io/html_project.github.io/)
+> **게임하러가기**
+> <br>
+> [ORIGINAL 주소](https://hyeon317.github.io/original_html.github.io/)<br>
+> [UPGRADE 주소](https://hyeon317.github.io/html_project.github.io/)
