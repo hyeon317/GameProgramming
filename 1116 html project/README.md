@@ -6,7 +6,7 @@
 > ![ORIGINAL GAME](https://user-images.githubusercontent.com/101097019/202085982-7365a0c5-baf9-4e43-af81-bbe0ebf14b60.png)
 
 > **ORIGINAL GAME에서 개선하고자 한 점**<br>
-> *( 9번부터는 구현하지 못한 것 )*
+> *( 10번부터는 구현하지 못한 것 )*
 > ------------
 > 1. 타이틀 변경
 > 2. 게임 제목 추가
