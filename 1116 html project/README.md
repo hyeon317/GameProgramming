@@ -49,22 +49,31 @@
 >> ```
 >> 수정 초기에는 게임 제목 아래에 열을 지정하여 설명을 넣으려고 했지만, <br>첫 화면이 깔끔해보이지 않는 것 같아, 메뉴 버튼을 통해 설명을 볼 수 있도록 하였다.
 > 4. 게임소개 추가 (intro.html 파일 추가)
->> [intro.html 파일로 이동](https://github.com/hyeon317/GameProgramming/blob/main/1116%20html%20project/intro.html)
+>> [intro.html 파일로 이동](https://github.com/hyeon317/GameProgramming/blob/main/1116%20html%20project/intro.html)<br>
 >> 해당 파일 역시 기본으로 두는 것이 별로인 것 같아, Bulma를 사용하여 스타일을 지정해주었다.
 > 5. 조작법 설명 추가 (rule.html 파일 추가)
->> [rule.html 파일로 이동](https://github.com/hyeon317/GameProgramming/blob/main/1116%20html%20project/rule.html)
+>> [rule.html 파일로 이동](https://github.com/hyeon317/GameProgramming/blob/main/1116%20html%20project/rule.html)<br>
 >> 게임 소개와 마찬가지로 Bulma를 사용하였다.
 > 6. 난이도 설명 추가 (level.html 파일 추가)
->> [level.html 파일로 이동](https://github.com/hyeon317/GameProgramming/blob/main/1116%20html%20project/level.html)
+>> [level.html 파일로 이동](https://github.com/hyeon317/GameProgramming/blob/main/1116%20html%20project/level.html)<br>
 >> 게임 소개와 마찬가지로 Bulma를 사용하였다.
 > 7. 색상 변경
 >> ```js
 >> ctx.fillStyle = "#f0ad4e";
 >> ```
->> drawBall(), drawPaddle(), drawBricks(), leftBricks(), drawLives() 함수에 해당 코드가 포함되어있다.<br>색상 코드는 게임 제목으로 사용했던 Bootstarp에서 warning테마의 색상 코드를 사용했다.
+>> drawBall(), drawPaddle(), drawBricks(), leftBricks(), drawLives() 함수에 해당 코드가 포함되어있다.<br>색상 코드는 게임 제목으로 사용했던 Bootstarp에서 warning테마의 색상 코드를 사용했다. 해당 색상은 highlevel에 적용되었다.
 >> ```js
 >> ctx.fillStyle = "#A6B9A0";
 >> ```
+>> 난이도에 따라 다른 색상을 적용하고 싶어, lowlevel에는 다른 색상을 적용하였다.
+> 8. 난이도 버튼 추가
+>>```html
+>> <div class="d-grid gap-2 col-6 mx-auto">
+>>   <button type="button" class="btn btn-outline-warning" onclick = "lowlevel()">난이도 하</button>
+>>   <button type="button" class="btn btn-outline-warning" onclick = "highlevel()">난이도 상</button>
+>> </div>
+>> ```
+>> 난이도를 어떻게 선택할 지 생각해 보다가 버튼을 통해 난이도를 지정해야겠다고 생각했다. 버튼 역시 Bootstrap을 사용하였다.
 
 > **게임하러가기**<br>
 > [ORIGINAL GAME으로 이동](https://hyeon317.github.io/original_html.github.io/)<br>
